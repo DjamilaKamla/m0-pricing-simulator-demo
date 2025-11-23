@@ -1,4 +1,3 @@
-```python
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -10,14 +9,11 @@ n_hours = 24 * 30  # 1 mois horaire
 
 time_index = pd.date_range(start="2024-01-01", periods=n_hours, freq="H")
 
-# Production fictive (MWh)
 production = np.abs(np.random.normal(loc=50, scale=10, size=n_hours))
 
-# Prix spot fictif (€/MWh)
 spot_price = np.random.normal(loc=80, scale=20, size=n_hours)
 spot_price = np.clip(spot_price, 0, None)  # pas de prix négatifs ici
 
-# M0_CRE fictif (ex: référence régulée)
 m0_cre = 78 + np.random.normal(loc=0, scale=2, size=n_hours)
 
 df = pd.DataFrame({
