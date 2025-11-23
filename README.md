@@ -44,4 +44,8 @@ Le script `m0_pricing_demo.py` :
    - un résumé numérique,
    - une visualisation simple (évolution M0_site vs M0_CRE),
    - une interprétation business.
+   - ## 3. Usage
+
+```bash
+python m0_pricing_demo.py
 
