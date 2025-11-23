@@ -1,4 +1,4 @@
-# M0 Pricing Simulator – Demo
+# M0 Pricing Simulator
 
 Ce projet est une **démonstration simplifiée** d’un outil de simulation de prix énergétique,
 inspiré des mécanismes utilisés sur les marchés de l’électricité.
