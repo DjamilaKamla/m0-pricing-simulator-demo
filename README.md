@@ -47,6 +47,15 @@ Le script `m0_pricing_demo.py` :
 
 ---
 
+## 👩‍💻 Auteure
+
+**Djamila Kamla Fares**  
+Master 2 Economic Analysis — CY Cergy / ESSEC  
+📧 faresdjamila@gmail.com  
+📍 Île-de-France  
+
+---
+
 ## 3. Usage
 
 ```bash
